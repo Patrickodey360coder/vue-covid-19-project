@@ -22,3 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Description
+```
+This is a Vue.js rebuild of a COVID-19 tracker I made earlier using vanilla javascript.
+```
