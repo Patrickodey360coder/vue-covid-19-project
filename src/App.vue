@@ -1,7 +1,7 @@
 <template>
   <div id="app"> 
-    <Nav/>
-    <Body :skaters="skaters"/>
+    <app-nav></app-nav>
+    <app-body :skaters="skaters"></app-body>
   </div>
 </template>
 
@@ -12,8 +12,8 @@ import Body from './components/Body.vue'
 export default {
   name: 'App',
   components: {
-    Nav,
-    Body,
+    'app-nav': Nav,
+    'app-body': Body,
   },
 
   data(){
