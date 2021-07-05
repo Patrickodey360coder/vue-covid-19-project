@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>hello</p>
     <h1>{{text}}</h1>
     <h1>{{timestamp}}</h1>
   </div>
